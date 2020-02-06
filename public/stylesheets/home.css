@@ -1,0 +1,81 @@
+#mid1{
+    padding-top:10%;
+  
+    text-shadow: 0px 1px 1px white,
+                 0px 1px 1px rgb(0,0,0,0.1)
+}
+#mid2{
+  padding-top:7%;
+  padding-left: 5%;
+  text-shadow: 0px 1px 1px white,
+               0px 1px 1px rgb(0,0,0,0.1)
+}
+body{
+    background:url("https://previews.123rf.com/images/natalyalubimaya/natalyalubimaya1909/natalyalubimaya190900007/130887507-insulin-syringes-on-a-blue-background-world-diabetes-day-november-14-diabetes-concept-.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-blend-mode:screen;
+    font-family: 'Lato';
+    color: #2A293E;
+}
+hr{
+    border-top: 1px solid white;
+    width:500px;
+}
+
+html,
+  body,
+  header,
+  .view {
+  height: 100%;
+}
+
+@media (max-width: 750px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 750px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+.top-nav-collapse {
+  background-color: #6A5ACD !important;
+ 
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #6A5ACD !important;
+  }
+}
+
+.rgba-gradient {
+  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+  background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+  color: #ffffff;
+}
+
+h6 {
+  line-height: 1.7;
+}

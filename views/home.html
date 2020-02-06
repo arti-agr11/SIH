@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sample website using Bootstrap and ExpressJS</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/stylesheets/home.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#" style="color:#2A293E;">Home</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active" >
+                   <a class="nav-link" href="#" style="color:#2A293E;">About <span class="sr-only">(current)</span></a>
+                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color:#2A293E;">Contact</a>
+                </li>
+                </ul>
+                    <form class="form-inline">
+                        <div class="md-form my-0">
+                          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                        </div>
+                      </form>
+
+              </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+             <div class="col-xl-6 col-lg-6 col-md-6" id="mid1">
+                
+                    <h1 class="text-center">Well-O-City</h1>
+                    <h3  class="text-center">The Environment Friendly Medicello App</h3>
+                    <hr>
+                      <div class="text-center"><a href="/login" class="btn btn-outline-info wow fadeInLeft text-center" data-wow-delay="0.3s">Getting Started</a></div>
+                        <hr class="hr-light wow fadeInLeft" data-wow-delay="0.3s">
+                        <h6 class="mb-3 wow fadeInLeft  text-justify" data-wow-delay="0.3s">
+                           Everyone deserves healthcare!
+                        100% of your donation funds life-changing healthcare — we prove it by being radically transparent.
+                        Our vision is to bring more transparency to online donations, so that we provide an opportunity for every Indian & NRI to give back to the society confidently.</h6>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6" id="mid2">
+              
+                 <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="card-body">
+                 
+                      <div class="text-center">
+                        <h3 class="white-text">
+                          Register:</h3>
+                        <hr class="hr-light">
+                      </div>
+                   
+                      <div class="md-form">
+                        <label for="form3" class="active">Your name</label>
+                        <input type="text" id="form3" class="white-text form-control">
+                      </div>
+                      <div class="md-form">
+                        <label for="form2" class="active">Your email</label>
+                        <input type="email" id="form2" class="white-text form-control" required>
+                      </div>
+                      <div class="md-form">
+                        <label for="form4">Your password</label>
+                        <input type="password" id="form4" class="white-text form-control" minlength="6" maxlength="14" required>
+                      </div>
+                      <div class="text-center mt-4">
+                        <button class="btn btn-success">Sign up</button>
+                        <h4 class="white-text" style="padding-top:5px;">Already a registered user?<a href="/login"><strong> Log-in</strong></a></h4>
+                        <hr class="hr-light mb-3 mt-4">
+                      </div>
+                    </div>
+                  </div>
+        </div>
+        </div>
+        </div>  
+        <script>
+          // Animations init
+          new WOW().init();
+        </script>
+ 
+
+<script src="app.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</body>
+</html>
